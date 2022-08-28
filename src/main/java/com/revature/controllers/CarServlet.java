@@ -17,6 +17,8 @@ import com.revature.service.CarService;
 
 public class CarServlet extends HttpServlet {
 
+	
+	private static final long serialVersionUID = 105L;
 	private Cars car = new Cars();
 	private CarService cserv = new CarService();
 	private ObjectMapper mapper = new ObjectMapper();
